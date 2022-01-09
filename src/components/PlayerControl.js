@@ -4,7 +4,7 @@ import { faPlay, faPause, faForward, faBackward } from '@fortawesome/free-solid-
 
 function PlayerControl() {
   return (
-    <div className="c-player--controls">
+    <div className="c-player-controls">
         <button className="skip-btn">
             <FontAwesomeIcon icon={faBackward} />
         </button>

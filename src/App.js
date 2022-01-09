@@ -33,7 +33,7 @@ function App() {
   const[nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
 
   return (
-    <div className="APP">
+    <div className="App">
       <Player song={songs[currentSongIndex]} nextSong={songs[nextSongIndex]} ></Player>
     </div>
   );

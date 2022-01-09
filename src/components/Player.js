@@ -4,13 +4,12 @@ import PlayerControl from './PlayerControl'
 
 function Player(props) {
   return (
-    <div className="player">
+    <div className="c-player">
       <audio src=""></audio>
-      <h4>{props.song.title}</h4>
+      <h4 className="c-playing-information">PLAYING NOW</h4>
       <PlayerDetails song={props.song} />
       <PlayerControl />
-      <p><strong>Next Song : </strong>{props.nextSong.title} by {props.nextSong.artist}</p>
-
+      <p className="c-playing-information" ><strong>Next Song : </strong>{props.nextSong.title} by {props.nextSong.artist}</p>
     </div>
   )
 }

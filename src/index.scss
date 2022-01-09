@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Luxurious Roman', cursive, sans-serif;
+}
+
+body {
+  background-color: #7122FA;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.c-player {
+  background-color: #F148F1;
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: inset -6px -6px 12px rgb(184, 184, 184), inset 6px 6px 12px rgb(255, 255, 255);
+}
+
+.c-playing-information {
+  font-size: 14px;
+}
+
+.c-playing-img-wrapper {
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.c-playing-img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.c-playing-title {
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  margin-bottom: 10px;
+}
+
+.c-playing-artist {
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+}
+
+.c-player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.play-btn {
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #560A86;
+  color: #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px -2px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+.skip-btn {
+  background: none;
+  color: #FFFFFF;
+
+}
